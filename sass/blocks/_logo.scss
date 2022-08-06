@@ -1,0 +1,34 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+
+    color: $black-color;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__linkedin {
+    margin-right: 26px;
+}
+

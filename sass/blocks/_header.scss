@@ -1,0 +1,60 @@
+.header {
+    margin-top: 60px;
+}
+
+.header__center {
+    margin-top: 82px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__about-me {
+    max-width: 542px;
+    margin-top: 19px;
+    
+    z-index: 1;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 1.0;
+}
+
+.header__about-me p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.header__button {
+    display: flex;
+    justify-content: space space-between;
+}
+
+.header__meet {
+    padding: 19px 40px;
+    margin-right: 20px;
+
+    border-radius: 50px;
+    background-color: #FBDC4D;
+}
+
+.header__contact {
+    padding: 19px 40px;
+    border-radius: 50px;
+    background-color: #EFF7FC;
+}
+
+.header__img-computer {
+    z-index: 1;
+}
+
+.header__desktop {
+    margin-top: -155px;
+    z-index: -1;
+}
