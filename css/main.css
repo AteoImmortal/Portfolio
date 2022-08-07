@@ -229,9 +229,17 @@ body > * {
 }
 
 .title-1 {
+  display: inline;
   font-weight: 700;
   font-size: 78px;
   line-height: 1.0;
+}
+
+.title-1--gradient {
+  background-repeat: no-repeat;
+  background-position: center bottom 8px;
+  background-size: 100% 12px;
+  background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
 }
 
 .header__about-me p {
@@ -266,7 +274,8 @@ body > * {
   z-index: 1;
 }
 
-.header__desktop {
+.header__desktop img {
+  width: 100%;
   margin-top: -155px;
   z-index: -1;
 }
