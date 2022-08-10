@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+
+    &__linkedin {
+        margin-right: 26px;
+    }
+}
+
+.contact {
+    margin-bottom: 20px;
+    display: flex;
+
+    &__item img:not(last-child) {
+        margin-right: 30px;
+    }
+}

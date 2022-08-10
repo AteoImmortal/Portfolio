@@ -1,6 +1,29 @@
-.main__portfolio {
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
+.main {
+    &__portfolio {
+        padding-top: 80px;
+        padding-bottom: 90px;
+        background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
+    }
+    
+    &__card-first-row {
+        margin-top: 65px;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__card-second-row {
+        margin-top: 50px;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__card-link {
+        text-decoration: none;
+        transition: 0.6s;
+    }
+    
 }
+
 
