@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title>Стартовый шаблон</title>
+		<title>Portfolio - Денис Кушнер</title>
 		<meta name="description" content="Описание страницы" />
 		<meta name="keywords" content="ключевые слова, фразы" />
 
@@ -30,7 +30,7 @@
 				</nav>
 
 
-				<div class="header__center">
+				<section class="header__center">
 					<div class="header__about-me">
 						<div class="header__title-first">
 							<h1 class="title-1 title--gradient">Денис Кушнер</h1>
@@ -44,15 +44,15 @@
 					<div class="header__img-computer">
 						<img src="./img/header/header-computer.jpg" alt="photo">
 					</div>
-				</div>
+				</section>
 			</div>				
 				
-			<div class="header__desktop">
+			<divsection class="header__desktop">
 				<img src="./img/header/header-fon.png" alt="desktop">
-			</div>
+			</divsection>
 
 			<div class="container">
-				<div class="header__row">
+				<section class="header__row">
 
 					<div class="header__skills">
 						<div class="header__title-third">
@@ -86,67 +86,106 @@
 			</div>
 		</header>
 		
+
 		<main class="main">
 
-
-			<div class="main__portfolio">
+			<section class="main__portfolio">
 				<div class="container">
-					<h2 class="title-2 title--gradient">Портфолио</h2>
+					<div class="main__portfolio-header">
+						<h2 class="title-2 title--gradient">Портфолио</h2>
+					</div>
 
-					<div class="main__card-first-row">
-						<a href="#" class="main__card-link">
-							<div class="card">
-								<img src="./img/header/portfolio/1.jpg" alt=Форест тревел>
-								<div class="card__title">
-									<h4 class="title-4">Верстка “Форест тревел”</h4>
-								</div>
+
+					<div class="main__section-sites">
+						<div class="card">
+							<img src="./img/header/portfolio/1.jpg" alt="Форест тревел">
+							<h5 class="title-4">Верстка “Форест тревел”</h5>
+							<div class="card__text">
 								<p>Верстка многостраничного сайта</p>
 							</div>
-						</a>
-						<a href="#" class="main__card-link">
-							<div class="card">
-								<img src="./img/header/portfolio/2.jpg" alt="Юнит">
-								<div class="card__title">
-									<h4 class="title-4">Сайт приложения “Юнит”</h4>
-								</div>
+						</div>
+
+						<div class="card">
+							<img src="./img/header/portfolio/2.jpg" alt="Юнит">
+							<h5 class="title-4">Сайт приложения “Юнит”</h5>
+							<div class="card__text">
 								<p>Верстка лендинга</p>
 							</div>
-						</a>
+						</div>
+
+						<div class="card">
+							<img src="./img/header/portfolio/3.jpg" alt="Мир Авто">
+							<h5 class="title-5">Верстка “Мир Авто”</h5>
+							<div class="card__text">
+								<p>Верстка многостраничного сайта</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<img src="./img/header/portfolio/4.jpg" alt="Мир Авто">
+							<h5 class="title-5">Верстка “Мир Авто”</h5>
+							<div class="card__text">
+								<p>Верстка многостраничного сайта</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<img src="./img/header/portfolio/5.jpg" alt="Мир Авто">
+							<h5 class="title-5">Верстка “Мир Авто”</h5>
+							<div class="card__text">
+								<p>Верстка многостраничного сайта</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="main__card-second-row">
-						<a href="#" class="main__card-link">
-							<div class="card card--min">
-								<img src="./img/header/portfolio/3.jpg" alt="">
-								<div class="card__title card__title--min">
-									<h5 class="title-5">Верстка “Мир Авто”</h5>
-								</div>
-								<p>Верстка многостраничного сайта</p>
-							</div>
-						</a>
-						<a href="#" class="main__card-link">
-							<div class="card card--min">
-								<img src="./img/header/portfolio/4.jpg" alt="">
-								<div class="card__title card__title--min">
-									<h5 class="title-5">Верстка “Мир Авто”</h5>
-								</div>
-								<p>Верстка многостраничного сайта</p>
-							</div>
-						</a>
-						<a href="#" class="main__card-link">
-							<div class="card card--min">
-								<img src="./img/header/portfolio/5.jpg" alt="">
-								<div class="card__title card__title--min">
-									<h5 class="title-5">Верстка “Мир Авто”</h5>
-								</div>
-								<p>Верстка многостраничного сайта</p>
-							</div>
-						</a>
-					</div>
 				</div>
-			</div>
+			</section>
 
+			<section class="hw">
+				<div class="container">
+					<div class="hw__work-header">
+						<h2 class="title-2 	title--gradient">Как я работаю</h2>
+					</div>
+					<div class="hw__timeline">
+						<div class="hw__timeline--item">
+							<div class="hm__title">
+								<h2 class="title-5 title--gradient-5">Оцениваю макет</h2>
+							</div>
+							<p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
+							<span>Время: 2 часа</span>
+						</div>
+						<div class="hw__timeline--item">
+							<div class="hm__title">
+								<h2 class="title-5 title--gradient-5">ТЗ, смета и график работ</h2>
+							</div>
+							<p>Согласовываем техническое задание и график работ по проекту. Осмечиваю стоимость по этапам работы.</p>
+							<span>Время: 2 - 4 часа</span>
+						</div>
+						<div class="hw__timeline--item">
+							<div class="hm__title">
+								<h2 class="title-5 title--gradient-5">Вы держите руку на пульсе</h2>
+							</div>
+							<p>Выдаю клиенту доступ к GitHub репозиторию и доске&nbsp;Trello. Вы в любое время можете видеть актуальное состояние проекта и задач.</p>
+						</div>
+						<div class="hw__timeline--item">
+							<div class="hm__title">
+								<h2 class="title-5 title--gradient-5">Выполняю каждый этап</h2>
+							</div>
+							<p>Поочередно выполняю каждый этап работы. Передаю результаты. Заказчик производит поэтапную оплату.</p></div>
+						<div class="hw__timeline--item">
+							<div class="hm__title">
+								<h2 class="title-5 title--gradient-5">Финальное ревью проекта</h2>
+							</div>
+							<p>Проект готов. Финальное ревью и полировка до идеального&nbsp;состояния. Передаю файлы проекта, заливаю сайт на хостинг заказчика.</p>
+							<span>Время: 2 - 4 часа</span>
+						</div>
+					</div>
+					
+				</div>
 
+			</section>
 		</main>
+
+
 	</body>
 </html>

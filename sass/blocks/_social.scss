@@ -8,10 +8,10 @@
 }
 
 .contact {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
 
-    &__item img:not(last-child) {
+    &__item a:not(last-child) {
         margin-right: 30px;
     }
 }

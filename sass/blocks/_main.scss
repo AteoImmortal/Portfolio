@@ -4,6 +4,17 @@
         padding-bottom: 90px;
         background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
     }
+
+    &__portfolio-header {
+        margin-bottom: 65px;
+    }
+
+    &__section-sites {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 50px;
+    }
     
     &__card-first-row {
         margin-top: 65px;
@@ -23,7 +34,4 @@
         text-decoration: none;
         transition: 0.6s;
     }
-    
 }
-
-
