@@ -1,17 +1,31 @@
 .social {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    &__linkedin {
+    & a {
+        width: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    & a:first-child {
         margin-right: 26px;
     }
 }
 
 .contact {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
 
-    &__item a:not(last-child) {
+    & li {
+        display: block;
+        width: 48px;
+        height: 48px;
+    }
+    
+
+    & li:not(last-child) {
         margin-right: 30px;
     }
 }

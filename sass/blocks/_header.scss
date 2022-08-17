@@ -23,15 +23,28 @@
             line-height: 160%;
         }
     }
+
+    &-buttons {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space space-between; 
+    }
     
     &__title-first {
         margin-bottom: 30px;
     }
     
-    &__img-computer {
+    &__img-me {
         height: 410px;
         box-shadow: 40px 40px 10px  rgba(255, 255, 255, 0.5);
         z-index: 1;
+
+        & img {
+            height: 283px;
+            width: 328px;
+            object-fit: cover;
+        }
+        
     }
     
     &__desktop img {
@@ -44,7 +57,7 @@
     }
     
     &__row {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
         margin-top: -32px;
         display: flex;
     }
@@ -70,13 +83,6 @@
     
     &__in-touch {
         margin-left: 80px;
-    }
-    
-    &__email {
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 1.3;
-        color: #1A71D2;
     }
 }
 

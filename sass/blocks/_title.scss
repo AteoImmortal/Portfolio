@@ -7,13 +7,20 @@
     
     &--gradient {
         background-repeat: no-repeat;
-        background-position: center bottom 8px;
+        background-position: center bottom 12px;
         background-size: 100% 12px;
         background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
 
+        &-2 {
+            background-repeat: no-repeat;
+            background-position: center bottom 8px;
+            background-size: 100% 10px;
+            background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+        }
+
         &-5 {
             background-repeat: no-repeat;
-            background-position: center bottom 6px;
+            background-position: center bottom 4px;
             background-size: 100% 6px;
             background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
         }
