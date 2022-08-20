@@ -118,6 +118,10 @@ body > * {
   /* sticky footer */
 }
 
+section {
+  position: relative;
+}
+
 /* Grid styles */
 .container {
   max-width: 1140px;
@@ -166,16 +170,6 @@ body > * {
   margin-left: -10000px;
   background: transparent;
   font-size: 0;
-}
-
-/* Sticky Footer */
-.footer {
-  margin-top: auto;
-  /* sticky footer */
-  /* Just for fun */
-  text-align: center;
-  background-color: #e2e2e2;
-  padding: 50px 0;
 }
 
 .link {
@@ -630,6 +624,23 @@ body > * {
 .main__card-link {
   text-decoration: none;
   transition: 0.6s;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #333333;
+}
+.footer p {
+  display: block;
+  color: #FFFFFF;
+}
+.footer p:not(:first-child) {
+  color: #B0B0B0;
+}
+.footer p a {
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */

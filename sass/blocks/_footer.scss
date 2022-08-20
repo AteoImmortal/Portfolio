@@ -1,0 +1,20 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    background-color: #333333;
+
+    & p {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    & p:not(:first-child) {
+        color: #B0B0B0;
+    }
+
+    & p a {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+}
