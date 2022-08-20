@@ -6,15 +6,18 @@
 
     & p {
         display: block;
+        
+        line-height: 1.5;
         color: #FFFFFF;
     }
-
+    
     & p:not(:first-child) {
         color: #B0B0B0;
     }
-
+    
     & p a {
-        color: #FFFFFF;
+        font-size: 16px;
         text-decoration: underline;
+        color: #FFFFFF;
     }
 }
