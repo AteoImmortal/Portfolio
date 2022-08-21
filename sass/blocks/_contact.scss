@@ -19,7 +19,6 @@
     }
 
     &__me {
-        width: 501px;
         margin-right: 69px;
         margin-bottom: 32px;
     }
@@ -32,11 +31,8 @@
         margin-bottom: 22px;
     }
 
-    &__email {
-        margin-right: 124px;
-    }
-    
-    &__tell{
+    &__text {
+        min-width: 110px;
         margin-right: 85px;
     }
 

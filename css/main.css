@@ -481,7 +481,6 @@ section {
           justify-content: space-between;
 }
 .contact__me {
-  width: 501px;
   margin-right: 69px;
   margin-bottom: 32px;
 }
@@ -492,10 +491,8 @@ section {
 .contact__info:first-child {
   margin-bottom: 22px;
 }
-.contact__email {
-  margin-right: 124px;
-}
-.contact__tell {
+.contact__text {
+  min-width: 110px;
   margin-right: 85px;
 }
 .contact__name {
