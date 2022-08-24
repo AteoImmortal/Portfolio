@@ -13,10 +13,16 @@
         margin-right: 20px;
 
         background-color: #FBDC4D;
+        @media (max-width: 899px){
+            display: none;
+        }
     }
     
     &--grey {
         background-color: #EFF7FC;
+        @media (max-width: 899px){
+            display: none;
+        }
     }
 
     &:hover {
