@@ -20,12 +20,12 @@
 
     & li {
         display: block;
-        width: 48px;
-        height: 48px;
+        width: 38px;
+        height: 38px;
     }
     
 
-    & li:not(last-child) {
-        margin-right: 30px;
+    &__item:not(last-child) {
+        margin-right: 20px;
     }
 }

@@ -3,6 +3,10 @@
     
     &-top {
         padding-top: 60px;
+
+        @media (max-width: 899px){
+            padding-top: 30px;
+        }
         
     }
 
@@ -15,7 +19,7 @@
     }
     
     &__about-me {
-        max-width: 542px;
+        width: 540px;
         
         z-index: 1;
 
@@ -89,3 +93,40 @@
     }
 }
 
+@media (max-width: 1439px){
+    .header {
+        &__about-me {
+            width: 420px;
+
+            & p{
+                font-size: 18px;
+            }
+        }
+
+        &__title-first {
+            margin-bottom: 20px;
+        }
+
+        &__img-me {
+            height: 376px;
+            box-shadow: none;
+            
+            & img {
+                width: 376px;
+            }
+        }
+
+        &__title-third {
+            margin-bottom: 20px;
+        }
+
+        &__list-skills li {
+            font-size: 18px;
+        }
+    }
+    
+}
+@media (max-width: 899px){
+}
+@media (max-width: 767px){
+}
