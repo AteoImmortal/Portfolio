@@ -14,8 +14,13 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<div id="overlay"></div>
+		
+		<!-- Навигация -->
 		<div class="header-top">
 			<div class="container">
+
+				<!-- Навигация на ПК -->
 				<nav class="nav">
 					<ul class="nav__list">
 						<li class="nav__item"><a href="#">Навыки</a></li>
@@ -29,6 +34,7 @@
 					</div>
 				</nav>
 
+				<!-- Мобильная навигация -->
 				<div class="nav__mini">
 					<div class=" nav__logo">
 						<p>HTML Верстальщик</p>
@@ -40,14 +46,16 @@
 							<li class="nav__mobile-item"><a href="#">Как я работаю</a></li>
 							<li class="nav__mobile-item"><a href="#">Контакты</a></li>
 						</ul>
-						<ul class="connection">
-							<li class="connection__item"><a href="#"><img src="./img/soc/telegram.svg" alt="telegram"></a></li>
-							<li class="connection__item"><a href="#"><img src="./img/soc/vk.svg" alt="vk"></a></li>
-							<li class="connection__item"><a href="#"><img src="./img/soc/facebook.svg" alt="facebook"></a></li>
-							<li class="connection__item"><a href="#"><img src="./img/soc/instagram.svg" alt="instagram"></a></li>
-							<li class="connection__item"><a href="#"><img src="./img/soc/whatsapp.svg" alt="whatsapp"></a></li>
-						</ul>
-						<a class="link" href="mailto:info@portfolio.com">ateo.immortal228@gmail.com</a>
+						<div class="nav__connection">
+							<ul class="connection">
+								<li class="connection__item"><a href="#"><img src="./img/soc/telegram.svg" alt="telegram"></a></li>
+								<li class="connection__item"><a href="#"><img src="./img/soc/vk.svg" alt="vk"></a></li>
+								<li class="connection__item"><a href="#"><img src="./img/soc/facebook.svg" alt="facebook"></a></li>
+								<li class="connection__item"><a href="#"><img src="./img/soc/instagram.svg" alt="instagram"></a></li>
+								<li class="connection__item"><a href="#"><img src="./img/soc/whatsapp.svg" alt="whatsapp"></a></li>
+							</ul>
+							<a class="link" href="mailto:info@portfolio.com">ateo.immortal228@gmail.com</a>
+						</div>
 					</div>
 					<div class="nav-icon">
 						<div class="nav-icon__middle"></div>
@@ -56,6 +64,7 @@
 			</div>
 		</div>
 
+		<!-- Шапка -->
 		<header class="header">
 			<div class="container">
 
@@ -114,7 +123,7 @@
 			</div>
 		</header>
 		
-
+		<!-- Основной контент -->
 		<main class="main none">
 
 			<section class="main__portfolio">
@@ -257,7 +266,7 @@
 
 		</main>
 
-
+		<!-- Подвал -->
 		<footer class="footer none">
 			<div class="container">
 				<p>© 2022 — Денис Кушнер</p>
