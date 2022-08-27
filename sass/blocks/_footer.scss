@@ -21,3 +21,24 @@
         color: #FFFFFF;
     }
 }
+
+@media (max-width: 1439px)  {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        & p {
+            font-size: 16px;
+        }
+
+        & p:not(:first-child) {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 899px)  {
+    
+}
+@media (max-width: 767px)  {
+    
+}

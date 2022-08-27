@@ -59,3 +59,34 @@
     }
     
 }
+
+@media (max-width: 1439px) {
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        
+        &__name {
+            font-size: 18px;
+        }
+        
+        &__me {
+            margin-right: 74px;
+            margin-bottom: 25px;
+        }
+
+        &__text {
+            min-width: 84px;
+            margin-right: 36px;
+        }
+        
+        &__block-right p {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 899px) {
+    
+}
+@media (max-width: 767px) {
+    
+}

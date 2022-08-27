@@ -44,3 +44,45 @@
     
 }
 
+@media (max-width: 1440px) {
+    .card   {
+        max-width: 420px;
+
+        img {
+            width: 270px;
+            height: 169px;
+            margin-bottom: 10px;
+        }
+
+        &__text {
+            margin-top: 4px;
+        }
+
+        &__text p {
+            font-size: 14px;
+        }
+
+        &:nth-child(-n+2)   {
+            .card__text {
+                margin-top: 6px;
+            }
+
+            & img {
+                width: 420px;
+                margin-bottom: 20px;
+                height: 290px;
+            }
+
+            .card__text p{
+                font-size: 16px;
+            }
+        }
+
+    }
+}
+@media (max-width: 900px) {
+    
+}
+@media (max-width: 768px) {
+    
+}

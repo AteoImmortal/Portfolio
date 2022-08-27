@@ -65,6 +65,14 @@
         &-2 {
             font-size: 42px;
         }
+        
+        &--gradient-2 {
+            background-repeat: no-repeat;
+            background-position: center bottom 6px;
+            background-size: 100% 8px;
+            background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+        }
+
         &-3 {
             font-size: 32px;
         }
@@ -74,6 +82,14 @@
         &-5 {
             font-size: 20px;
         }
+
+        &--gradient-5 {
+            background-repeat: no-repeat;
+            background-position: center bottom 3px;
+            background-size: 100% 4px;
+            background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+        }
+
         &-6 {
             font-size: 18px;
         }
@@ -85,6 +101,14 @@
         &-1{
             font-size: 42px;
         }
+
+        &--gradient {
+            background-repeat: no-repeat;
+            background-position: center bottom 6px;
+            background-size: 100% 8px;
+            background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+        }
+        
         &-2 {
             font-size: 32px;
         }
@@ -95,7 +119,7 @@
         //     font-size: 24px;
         // }
         // &-5 {
-        //     font-size: 20px;
+        //     font-size: 18px;
         // }
         // &-6 {
         //     font-size: 18px;
@@ -107,6 +131,14 @@
         &-1{
             font-size: 32px;
         }
+
+        &--gradient {
+            background-repeat: no-repeat;
+            background-position: center bottom 6px;
+            background-size: 100% 8px;
+            background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+        }
+
         &-2 {
             font-size: 24px;
         }
