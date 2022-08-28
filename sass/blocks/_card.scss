@@ -44,7 +44,7 @@
     
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .card   {
         max-width: 420px;
 
@@ -80,9 +80,49 @@
 
     }
 }
-@media (max-width: 900px) {
-    
+@media (max-width: 899px) {
+    .card   {
+        img {
+            width: 226px;
+            height: 140px;
+        }
+
+        &__text {
+            width: 226px;
+        }
+
+
+        &:nth-child(-n+2)   {
+            .card__text {
+                margin-top: 4px;
+                width: 354px;
+            }
+
+            & img {
+                width: 354px;
+                height: 180px;
+                margin-bottom: 10px;
+                object-fit: fill;
+            }
+
+            .card__text p{
+                font-size: 14px;
+            }
+        }
+
+    }
 }
-@media (max-width: 768px) {
-    
+@media (max-width: 767px) {
+    .card   {
+        max-width: 290px;
+        img {
+            width: 290px;
+            height: 180px;
+        }
+
+        &__text {
+            margin-top: 6px;
+            width: 226px;
+        }
+    }
 }

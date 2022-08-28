@@ -54,8 +54,25 @@
     }
 }
 @media (max-width: 899px) {
-    
+    .main   {
+        &__portfolio {
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
+
+        &__portfolio-header {
+            margin-bottom: 30px;
+        }
+
+        &__section-sites {
+            row-gap: 20px;
+        }
+    }
 }
 @media (max-width: 767px) {
-    
+    .main   {
+        &__section-sites {
+            row-gap: 30px;
+        }
+    }
 }

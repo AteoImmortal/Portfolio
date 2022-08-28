@@ -394,6 +394,12 @@ section {
   .title-2 {
     font-size: 32px;
   }
+  .title-3 {
+    font-size: 24px;
+  }
+  .title-4 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 767px) {
   .title-1 {
@@ -404,9 +410,6 @@ section {
     background-position: center bottom 6px;
     background-size: 100% 8px;
     background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
-  }
-  .title-2 {
-    font-size: 24px;
   }
 }
 .nav {
@@ -577,7 +580,7 @@ section {
   font-size: 20px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .card {
     max-width: 420px;
   }
@@ -602,6 +605,42 @@ section {
   }
   .card:nth-child(-n+2) .card__text p {
     font-size: 16px;
+  }
+}
+@media (max-width: 899px) {
+  .card img {
+    width: 226px;
+    height: 140px;
+  }
+  .card__text {
+    width: 226px;
+  }
+  .card:nth-child(-n+2) .card__text {
+    margin-top: 4px;
+    width: 354px;
+  }
+  .card:nth-child(-n+2) img {
+    width: 354px;
+    height: 180px;
+    margin-bottom: 10px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .card:nth-child(-n+2) .card__text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    max-width: 290px;
+  }
+  .card img {
+    width: 290px;
+    height: 180px;
+  }
+  .card__text {
+    margin-top: 6px;
+    width: 226px;
   }
 }
 .hw {
@@ -808,6 +847,7 @@ section {
   }
 }
 .header {
+  padding-top: 82px;
   padding-bottom: 80px;
 }
 .header-top {
@@ -820,7 +860,6 @@ section {
   }
 }
 .header__center {
-  margin-top: 82px;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -898,8 +937,11 @@ section {
     width: 900px;
   }
 
+  .header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .header__center {
-    margin-top: 60px;
     -webkit-box-align: center;
             align-items: center;
   }
@@ -935,8 +977,9 @@ section {
     width: 768px;
   }
 
-  .header__center {
-    margin-top: 30px;
+  .header {
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
   .header__about-me {
     width: 354px;
@@ -1048,6 +1091,23 @@ section {
   }
   .main__section-sites {
     row-gap: 40px;
+  }
+}
+@media (max-width: 899px) {
+  .main__portfolio {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .main__portfolio-header {
+    margin-bottom: 30px;
+  }
+  .main__section-sites {
+    row-gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main__section-sites {
+    row-gap: 30px;
   }
 }
 .footer {
