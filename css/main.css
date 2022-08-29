@@ -653,6 +653,12 @@ section {
     padding-bottom: 70px;
   }
 }
+@media (max-width: 899px) {
+  .hw {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 .hw__work-header {
   text-align: center;
   margin-bottom: 75px;
@@ -669,9 +675,10 @@ section {
   position: relative;
   width: 50%;
   padding-right: 51px;
-  padding-bottom: 41px;
+  padding-bottom: 67px;
   min-height: 168px;
   text-align: right;
+  padding-bottom: 67px;
   /*Круг*/
   /*Полоска*/
 }
@@ -679,7 +686,13 @@ section {
   .hw__timeline--item {
     padding-right: 0;
     padding-left: 36px;
+    padding-bottom: 45px;
     text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .hw__timeline--item {
+    padding-bottom: 43px;
   }
 }
 .hw__timeline--item p {
@@ -687,6 +700,16 @@ section {
   line-height: 1.4;
 }
 @media (max-width: 1439px) {
+  .hw__timeline--item p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 899px) {
+  .hw__timeline--item p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
   .hw__timeline--item p {
     font-size: 14px;
   }
@@ -837,6 +860,36 @@ section {
   .contact__me {
     margin-right: 74px;
     margin-bottom: 25px;
+  }
+  .contact__text {
+    min-width: 84px;
+    margin-right: 36px;
+  }
+  .contact__block-right p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 899px) {
+  .contact {
+    padding-bottom: 40px;
+  }
+  .contact__name {
+    font-size: 14px;
+  }
+  .contact__link a {
+    font-size: 16px;
+  }
+  .contact__me {
+    margin-right: 156px;
+    margin-bottom: 25px;
+  }
+  .contact__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .contact__info:first-child {
+    margin-bottom: 10px;
   }
   .contact__text {
     min-width: 84px;
@@ -1128,6 +1181,9 @@ section {
   text-decoration: underline;
   color: #FFFFFF;
 }
+.footer p:first-child {
+  margin-bottom: 10px;
+}
 
 @media (max-width: 1439px) {
   .footer {
@@ -1139,6 +1195,16 @@ section {
   }
   .footer p:not(:first-child) {
     font-size: 14px;
+  }
+}
+@media (max-width: 899px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer p:not(:first-child) {
+    line-height: 1.4;
+    margin-top: 10px;
   }
 }
 

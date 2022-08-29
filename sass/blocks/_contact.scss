@@ -85,7 +85,39 @@
     }
 }
 @media (max-width: 899px) {
-    
+    .contact {
+        padding-bottom: 40px;
+
+        &__name {
+            font-size: 14px;
+        }
+
+        &__link a {
+            font-size: 16px;
+        }
+        
+        &__me {
+            margin-right: 156px;
+            margin-bottom: 25px;
+        }
+
+        &__info {
+            flex-direction: column;
+        }
+
+        &__info:first-child {
+            margin-bottom: 10px;
+        }
+
+        &__text {
+            min-width: 84px;
+            margin-right: 36px;
+        }
+        
+        &__block-right p {
+            font-size: 16px;
+        }
+    }
 }
 @media (max-width: 767px) {
     

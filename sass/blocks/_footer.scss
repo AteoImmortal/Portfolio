@@ -20,6 +20,10 @@
         text-decoration: underline;
         color: #FFFFFF;
     }
+
+    & p:first-child  {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 1439px)  {
@@ -37,7 +41,15 @@
     }
 }
 @media (max-width: 899px)  {
-    
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        & p:not(:first-child)  {
+            line-height: 1.4;
+            margin-top: 10px;
+        }
+    }
 }
 @media (max-width: 767px)  {
     
