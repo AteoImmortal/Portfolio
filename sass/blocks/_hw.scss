@@ -24,6 +24,10 @@
 
         &__title {
             margin-bottom: 7px;
+
+            @media(max-width: 767px) {
+                margin-bottom: 7px;
+            }
         }
 
         &--item {
@@ -42,7 +46,9 @@
                 text-align: left;
             }
             @media(max-width: 767px) {
+                width: 290px;
                 padding-bottom: 43px;
+                padding-left: 44px;
             }
 
             padding-bottom: 67px;
@@ -92,7 +98,7 @@
 
             &:nth-child(2n) {
                 margin-left: auto;
-                padding-left: 53px;
+                padding-left: 44px;
 
                 text-align: left;
 

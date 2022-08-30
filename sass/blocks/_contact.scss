@@ -120,5 +120,27 @@
     }
 }
 @media (max-width: 767px) {
-    
+    .contact {
+
+        &__title    {
+            margin-bottom: 20px;
+        }
+        
+        &__row {
+            flex-direction: column-reverse;
+        }
+
+        &__block-right  {
+            width: 290px;
+            margin-bottom: 20px;
+        }
+
+        &__info {
+            width: 290px;
+        }
+
+        &__img  {
+            display: none;
+        }
+    }
 }

@@ -671,6 +671,11 @@ section {
 .hw__timeline__title {
   margin-bottom: 7px;
 }
+@media (max-width: 767px) {
+  .hw__timeline__title {
+    margin-bottom: 7px;
+  }
+}
 .hw__timeline--item {
   position: relative;
   width: 50%;
@@ -692,7 +697,9 @@ section {
 }
 @media (max-width: 767px) {
   .hw__timeline--item {
+    width: 290px;
     padding-bottom: 43px;
+    padding-left: 44px;
   }
 }
 .hw__timeline--item p {
@@ -744,7 +751,7 @@ section {
 }
 .hw__timeline--item:nth-child(2n) {
   margin-left: auto;
-  padding-left: 53px;
+  padding-left: 44px;
   text-align: left;
 }
 @media (max-width: 899px) {
@@ -897,6 +904,26 @@ section {
   }
   .contact__block-right p {
     font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .contact__title {
+    margin-bottom: 20px;
+  }
+  .contact__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
+  }
+  .contact__block-right {
+    width: 290px;
+    margin-bottom: 20px;
+  }
+  .contact__info {
+    width: 290px;
+  }
+  .contact__img {
+    display: none;
   }
 }
 .header {
