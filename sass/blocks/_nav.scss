@@ -68,7 +68,6 @@
 
     .nav__item:not(:last-child) {
         margin-right: 50px;
-        margin-bottom: 28px
     }
 }
 
@@ -131,6 +130,6 @@
 //Mobile
 @media (max-width: 767px){
     .nav__mobile.nav__mobile--active {
-        width: 100%;
+        width: 320px;
     }
 }
