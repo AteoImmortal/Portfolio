@@ -124,5 +124,12 @@
             margin-top: 6px;
             width: 226px;
         }
+        &:nth-child(-n+2)   {
+            .card__text {
+                margin-top: 4px;
+                width: 226px;
+            }
+        }
+
     }
 }

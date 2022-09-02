@@ -2,6 +2,7 @@
     padding-top: 70px;
     padding-bottom: 90px;
     
+    overflow: hidden;
     background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
     
     .container {
@@ -82,6 +83,10 @@
         &__block-right p {
             font-size: 16px;
         }
+
+        &__img {
+            right: 0px;
+        }
     }
 }
 @media (max-width: 899px) {
@@ -117,6 +122,10 @@
         &__block-right p {
             font-size: 16px;
         }
+
+        &__img {
+            display: none;
+        }
     }
 }
 @media (max-width: 767px) {
@@ -141,6 +150,9 @@
 
         &__img  {
             display: none;
+        }
+        &__name {
+            font-size: 16px;
         }
     }
 }

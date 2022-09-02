@@ -642,6 +642,10 @@ section {
     margin-top: 6px;
     width: 226px;
   }
+  .card:nth-child(-n+2) .card__text {
+    margin-top: 4px;
+    width: 226px;
+  }
 }
 .hw {
   padding-top: 70px;
@@ -733,6 +737,9 @@ section {
     font-size: 14px;
   }
 }
+.hw__timeline--item:last-child {
+  padding-bottom: 0;
+}
 .hw__timeline--item:before {
   content: " ";
   width: 34px;
@@ -807,6 +814,7 @@ section {
 .contact {
   padding-top: 70px;
   padding-bottom: 90px;
+  overflow: hidden;
   background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
 }
 .contact .container {
@@ -875,6 +883,9 @@ section {
   .contact__block-right p {
     font-size: 16px;
   }
+  .contact__img {
+    right: 0px;
+  }
 }
 @media (max-width: 899px) {
   .contact {
@@ -905,6 +916,9 @@ section {
   .contact__block-right p {
     font-size: 16px;
   }
+  .contact__img {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .contact__title {
@@ -924,6 +938,9 @@ section {
   }
   .contact__img {
     display: none;
+  }
+  .contact__name {
+    font-size: 16px;
   }
 }
 .header {
@@ -1093,6 +1110,9 @@ section {
     width: 320px;
   }
 
+  .header__about-me {
+    width: 290px;
+  }
   .header__center {
     display: block;
   }
