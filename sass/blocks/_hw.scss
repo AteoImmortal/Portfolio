@@ -15,6 +15,14 @@
     &__work-header {
         text-align: center;
         margin-bottom: 75px;
+
+        @media(max-width: 1439px) {
+            margin-bottom: 51px;
+        }
+
+        @media(max-width: 899px) {
+            margin-bottom: 41px;
+        }
     }
     
     &__timeline {
@@ -38,8 +46,12 @@
             
             min-height: 168px;
             text-align: right;
+            line-height: 1.4;
 
             @media(max-width: 899px) {
+                width: 370px;
+                margin-left: auto;
+                margin-right: auto;
                 padding-right: 0;
                 padding-left: 36px;
                 padding-bottom: 45px;
@@ -139,9 +151,9 @@
             &:nth-child(2n) {
                 margin-left: auto;
 
-                @media(max-width: 899px) {
-                    margin-left: 0;
-                }
+                // @media(max-width: 899px) {
+                //     margin-left: 0;
+                // }
             }
 
             &:nth-child(2n):after {
