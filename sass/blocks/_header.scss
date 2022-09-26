@@ -4,7 +4,7 @@
     
     &-top {
         padding-top: 60px;
-        z-index: 5;
+        z-index: 4;
 
         @media (max-width: 899px){
             padding-top: 30px;
@@ -131,7 +131,7 @@
         }
         
         &__title-third {
-            margin-bottom: 20px;
+            margin-bottom: 33px;
         }
         
         &__list-skills li {
@@ -149,8 +149,16 @@
         width: 768px;
     }
     .header {
-        padding-top: 30px;
+        padding-top: 65px;
         padding-bottom: 40px;
+
+        &-top  {
+            position: fixed;
+            width: 320px;
+            padding-bottom: 20px;
+
+            background-color: #fff;
+        }
 
         &__about-me {
             width: 354px;

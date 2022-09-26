@@ -82,13 +82,13 @@
         }
 
         &__mobile {
-            padding: 30px 15px 40px;
             display: block;
             position: fixed;
             top: 0;
             right: -100%;
             width: 250px;
             height: 100%;
+            padding: 30px 15px 40px;
             margin-left: auto;
 
             .nav__connection a{
@@ -114,11 +114,11 @@
     }
 
     
-    .nav__mobile.nav__mobile--active {
+    .nav__mobile--active {
+        width: 320px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 320px;
         right: 0;
         opacity: 1;
         transition: right .3s linear, opacity .2s ease-in;

@@ -10,6 +10,8 @@ $height: $lineHeight * 5;
     width: $width;
     height: $height;
 
+    position: fixed;
+    right: 15px;
     display: none;
     // display: flex;
 	justify-content: center;

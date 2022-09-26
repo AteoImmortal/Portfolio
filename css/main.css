@@ -157,6 +157,8 @@ section {
 .nav-icon {
   width: 30px;
   height: 25px;
+  position: fixed;
+  right: 15px;
   display: none;
   -webkit-box-pack: center;
           justify-content: center;
@@ -492,13 +494,13 @@ section {
     display: block;
   }
   .nav__mobile {
-    padding: 30px 15px 40px;
     display: block;
     position: fixed;
     top: 0;
     right: -100%;
     width: 250px;
     height: 100%;
+    padding: 30px 15px 40px;
     margin-left: auto;
   }
   .nav__mobile .nav__connection a {
@@ -517,7 +519,8 @@ section {
     margin-left: 15px;
   }
 
-  .nav__mobile.nav__mobile--active {
+  .nav__mobile--active {
+    width: 320px;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -525,7 +528,6 @@ section {
             flex-direction: column;
     -webkit-box-pack: justify;
             justify-content: space-between;
-    width: 320px;
     right: 0;
     opacity: 1;
     transition: right .3s linear, opacity .2s ease-in;
@@ -964,7 +966,7 @@ section {
 }
 .header-top {
   padding-top: 60px;
-  z-index: 5;
+  z-index: 4;
 }
 @media (max-width: 899px) {
   .header-top {
@@ -1074,7 +1076,7 @@ section {
     width: 376px;
   }
   .header__title-third {
-    margin-bottom: 20px;
+    margin-bottom: 33px;
   }
   .header__list-skills li {
     font-size: 18px;
@@ -1090,8 +1092,14 @@ section {
   }
 
   .header {
-    padding-top: 30px;
+    padding-top: 65px;
     padding-bottom: 40px;
+  }
+  .header-top {
+    position: fixed;
+    width: 320px;
+    padding-bottom: 20px;
+    background-color: #fff;
   }
   .header__about-me {
     width: 354px;
