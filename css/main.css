@@ -1092,11 +1092,10 @@ section {
   }
 
   .header {
-    padding-top: 65px;
+    padding-top: 15px;
     padding-bottom: 40px;
   }
   .header-top {
-    position: fixed;
     width: 320px;
     padding-bottom: 20px;
     background-color: #fff;
